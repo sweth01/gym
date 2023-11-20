@@ -1,0 +1,158 @@
+body{
+    background:white;
+}
+
+.main_wrapper{
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+.header_wrapper{
+    width:1000px;
+    height:100px;
+    margin:auto;}
+#logo{
+    float:left;
+    height:100px;
+    width:100px;
+}
+#banner{
+    float:right;
+    height:100px;
+    width:900px;
+}
+
+#menubar{
+    width:1000px;
+    height:50px;
+    background:black;
+    color:white;
+}
+
+.content_wrapper{
+    width:1000px;
+    margin:auto;
+    background:dark-grey;
+}
+
+#content_area{
+    width:800px;
+    height:474px;
+    float:right;
+    background:Gainsboro ;
+}
+
+#sidebar{
+    width:200px;
+    background:DarkGray    ;
+    float:left;
+}
+
+#siderbar_title{
+    background:white;
+    color:black;
+    font-size:22px;
+    font-family:sans-serif;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+#footer{
+    width: 1000px;
+    height: 100px;
+    background: #000000;
+    clear: both;
+    margin: auto;
+    color: white;
+}
+
+#menu{
+    padding: 0;
+    margin: 0;
+    line-height: 	40px;
+    float: left;
+}
+#menu a:hover{
+    color:Gold;
+    font-weight:bolder
+}
+
+#menu li{
+    list-style: none;
+    display: inline
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: vertical-align;
+
+}
+
+#form {
+    float: right;
+    padding-right:10px;
+    line-height: 48px;
+
+}
+#categories li{
+
+
+    list-style: none;
+    display: block;
+    margin: 7px;
+    text-align: left;
+
+}
+
+#categories a{
+
+    padding : 2px;
+    color: white;
+    margin:1px;
+    text-align:left;
+    text-decoration: none;
+    font-family: Courier New;
+    font-weight: normal;
+
+
+}
+
+#categories a:hover{
+
+
+    color:black ;
+    font-weight: bolder;
+}
+
+#product_box{
+
+    width:780px;
+    text-align:center;
+    margin_left:30px;
+    margin_bottom:10px;
+
+}
+
+#single_product{
+
+    float:left;
+    margin-left:30px;
+    padding:10px;
+    border:2px solid black;
+
+}
+#shopping_cart{
+
+    width:800px;
+    height:46px;
+    background:darkgrey;
+    color:white;
+
+
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Fitness Center</title>
+    <style>
+        body {
+            padding-top: 56px;
+        }
+
+        /* Set the width of the carousel container */
+        #slider {
+            width: 30%;
+            margin: auto;
+        }
+
+        /* Center the carousel content horizontally */
+        #slider .carousel-inner {
+            text-align: center;
+        }
+
+        /* Center the images within the carousel slides */
+        #slider .carousel-item img {
+            margin: auto;
+        }
+
+        /* Add styles for the horizontal navigation panel */
+        #navigation-panel {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        #navigation-panel a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        #navigation-panel a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Styles for the dropdown menu */
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Fitness Center</a>
+        <!-- Add navigation links if needed -->
+    </nav>
+
+    <!-- Horizontal Navigation Panel -->
+    <div id="navigation-panel">
+        <div class="dropdown">
+            <a href="#" class="dropbtn">Home</a>
+            <div class="dropdown-content">
+                <a href="#home-submenu-1">Submenu 1</a>
+                <a href="#home-submenu-2">Submenu 2</a>
+                <a href="#home-submenu-3">Submenu 3</a>
+            </div>
+        </div>
+        <a href="#classes">Classes</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Slider Section -->
+    <div id="slider" class="carousel slide" data-ride="carousel">
+        <!-- Carousel content as before -->
+    </div>
+
+    <!-- Content Section -->
+    <div class="container mt-4">
+        <h2>Welcome to Our Fitness Center</h2>
+        <p>Explore our state-of-the-art facilities and achieve your fitness goals with us.</p>
+        <!-- Add more content as needed -->
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container">
+            <span class="text-muted">© 2023 Fitness Center</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

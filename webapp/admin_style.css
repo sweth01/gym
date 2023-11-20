@@ -1,0 +1,19 @@
+#content_area_admin{
+
+    width:1000px;
+    height:400px;
+
+
+
+    background:Gainsboro ;
+}
+
+#content_wrapper_admin{
+
+
+    width:1000px;
+
+    margin:auto;
+    background:dark-grey;
+
+}
