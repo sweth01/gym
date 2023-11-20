@@ -165,7 +165,7 @@
           <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
         </label>
                   
-                 
+                 <br>
                   <input type = "submit" name = "register" value = " Update">
                 </form>
               </div>
